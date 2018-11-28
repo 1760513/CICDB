@@ -12,7 +12,7 @@ namespace ReleasePipeDemoApp.Controllers
         // GET api/<controller>
         public IEnumerable<string> Get()
         {
-            return new string[] { "wrong", "value2" };
+            return new string[] { "value1", "value2" };
         }
     }
 }
